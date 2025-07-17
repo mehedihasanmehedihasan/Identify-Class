@@ -27,6 +27,8 @@ color:#727272;
   font: size 1.25;
   font-weight: 600;
   border-radius: 8px;
+  border: none;
+  cursor: pointer;
 }
 
 main{
@@ -116,5 +118,14 @@ font-weight: 500;
 
   {
     margin-left:20px;
+  }
+}
+/* medium size */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .teams{
+    flex-direction: column;
+  }
+  .our-features{
+    margin: 50px auto;
   }
 }
