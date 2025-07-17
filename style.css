@@ -28,8 +28,9 @@ color:#727272;
   font-weight: 600;
   border-radius: 8px;
 }
+
 main{
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 main >section{
@@ -83,7 +84,7 @@ main >section{
   .team-img-container{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
+     gap: 24px;
     
   }
   .our-features{
@@ -101,12 +102,15 @@ main >section{
 font-weight: 500;
 }
   @media screen and (max-width:576px){
-   .nav-link,.navbar,.teams{
+   .navbar,
+   .nav-links,
+   .teams
+   {
     flex-direction: column;
-  gap: 20px;
    }
-   .team-img-container{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
+     .team-img-container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+     }
+
 }
