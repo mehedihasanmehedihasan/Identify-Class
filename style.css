@@ -101,9 +101,12 @@ main >section{
 font-weight: 500;
 }
   @media screen and (max-width:576px){
-   .nav-link,.navbar{
+   .nav-link,.navbar,.teams{
     flex-direction: column;
   gap: 20px;
    }
-    
+   .team-img-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
   }
+}
